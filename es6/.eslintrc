@@ -15,15 +15,27 @@
   "rules": {
     "no-var": 1,
 
-
     "comma-dangle": [2, "never"],
+    "no-cond-assign": [2, "always"],
+    "no-dupe-args": 1,
+    "no-dupe-keys": 1,
+    "no-duplicate-case": 1,
+    "no-empty": 1,
     "no-eq-null": 1,
     "no-extra-semi": 1,
+    "no-eval": 1,
+    "no-inner-declarations": [2, "both"],
+    "no-irregular-whitespace": 1,
+    "no-reserved-keys": 1,
+    "no-sparse-arrays": 1,
     "no-unneeded-ternary": 1,
+    "no-unreachable": 1,
     "one-var": [2, "never"],
     "quotes": [2, "single"],
     "semi-spacing": [2, {"before": false, "after": true}],
     "semi": [2, "always"],
-    "strict": 1
+    "strict": 1,
+    "use-isnan": 2,
+    "valid-typeof": 2
   }
 }
