@@ -1,0 +1,29 @@
+{
+  "parser": "babel-eslint",
+  "ecmaFeatures": {
+    "blockBindings": true,
+    "forOf": true,
+    "classes": true,
+    "arrowFunctions": true,
+    "defaultParams": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
+  },
+  "rules": {
+    "no-var": 1,
+
+
+    "comma-dangle": [2, "never"],
+    "no-eq-null": 1,
+    "no-extra-semi": 1,
+    "no-unneeded-ternary": 1,
+    "one-var": [2, "never"],
+    "quotes": [2, "single"],
+    "semi-spacing": [2, {"before": false, "after": true}],
+    "semi": [2, "always"],
+    "strict": 1
+  }
+}

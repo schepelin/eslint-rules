@@ -1,0 +1,1 @@
+# My preferable eslint rules
